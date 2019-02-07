@@ -1,0 +1,149 @@
+===============================
+Variable and It's Type(Scope)
+===============================
+Variable : is temp. memory where data can be stored/saved 
+	Example:
+	int a =11;		//integer/number
+	String s ="Raman Sinha"; //String or alpha numeric 
+
+Type/Scope:
+	-Local variable
+	-Global variable 
+		-Instance Variable
+		-Static variable
+
+	Example:
+	
+	public class VariableExample{
+
+		//global variable : can be accesss from any where within class
+		int a;			//instance variable, we can access with object
+		static int b;		//we can access without object/with class name
+		
+		public void static main(String[] x)
+		{
+
+			//local variable  : cannot be access out of the class
+			int l =100;  
+		}
+
+	}	
+
+===============================
+Data Type 
+===============================
+There are following types of data type:
+	Primitive		: single value or value type 
+	-----------------
+	Numeric without decimal:
+		byte		: 1 byte		byte b =1
+		short		: 2 byte		short s =111
+		int		: 4 byte		int i =32323333
+		long 		: 8 byte		long d =2223333333333l;
+
+	Numeric with decimal:
+		float 		: 4 byte		float f =4333222.222f;
+		double 		: 8 byte
+
+	Alpha numeric:
+		char		: 2 byte		char c ='a'
+
+	Boolean:
+		boolean		: 1 byte		boolean b =true;
+		
+
+	Imprimitive 		: multiple valeus or class type 
+	----------------------------
+	String 			:  String s ="Raman sinha, 25, Male";
+	ArrayList 		
+	List 
+	etc.
+
+
+
+===============================
+Operator
+===============================
+Arithmetic:
+	+
+	-
+	*
+	/		85/10  = 8  or 8.5
+	%		85%10  = 5
+
+Coditional:
+	>
+	>=
+	<
+	<=
+	==
+	!=
+Logical:
+	&&	-and
+	||	-or 
+
+Assignment Operator:
+	=		a =1	
+	+=		a +=10  or a = a+10
+	-=
+	*=
+	/=	
+
+Incrementer/Decrementer:
+	++
+	--	
+	post fix:
+		i++
+		i--
+	prefix:	
+		++i
+		--i
+
+===========================
+Input and Output		
+===========================
+	
+Input
+-----------
+Scanner is part of Util pacakge 
+	import java.util.Scanner;
+
+		
+Scanner sc = new Scanner(System.in);
+sc.nextInt()
+sc.nextFloat()
+sc.next()   - string
+
+
+
+Output
+----------
+System.out.print(message)  //print but don't change line
+System.out.println(message) //print and new line 
+
+======================
+Condition: is decision making statement
+======================
+-if condition
+-if else condition 
+-if else if else if .. else  / ladder if else 
+-nested if else / if inside if condition 
+
+-switch case 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+	
